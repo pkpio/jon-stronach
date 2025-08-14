@@ -1,0 +1,117 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://yourusername.github.io/jon-stronach-blog/'
+  relativeLinks: 'https://yourusername.github.io/jon-stronach-blog/links.jsonp'
+  media: 'assets/images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "single"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Enter your post title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: "CURRENT_DATETIME"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Categories"
+          placeholder: "Choose categories"
+          options:
+            - name: "General"
+              value: "General"
+            - name: "Technology"
+              value: "Technology"
+            - name: "Tutorial"
+              value: "Tutorial"
+            - name: "Personal"
+              value: "Personal"
+            - name: "Projects"
+              value: "Projects"
+          alterable: true
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags separated by commas"
+      - name: "excerpt"
+        field:
+          element: "textarea"
+          label: "Excerpt"
+          placeholder: "Brief description of your post"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: true
+      - name: "toc"
+        field:
+          element: "checkbox"
+          label: "Show Table of Contents"
+          value: false
+      - name: "toc_label"
+        field:
+          element: "text"
+          label: "Table of Contents Label"
+          placeholder: "On This Page"
+          value: "Contents"
+      - name: "author_profile"
+        field:
+          element: "checkbox"
+          label: "Show Author Profile"
+          value: true
+      - name: "read_time"
+        field:
+          element: "checkbox"
+          label: "Show Read Time"
+          value: true
+      - name: "share"
+        field:
+          element: "checkbox"
+          label: "Show Share Buttons"
+          value: true
+      - name: "related"
+        field:
+          element: "checkbox"
+          label: "Show Related Posts"
+          value: true
+    _pages:
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Layout"
+          placeholder: "Choose Layout"
+          options:
+            - name: "Single"
+              value: "single"
+            - name: "Archive"
+              value: "archive"
+            - name: "Splash"
+              value: "splash"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Enter page title"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "/page-url/"
+      - name: "author_profile"
+        field:
+          element: "checkbox"
+          label: "Show Author Profile"
+          value: false
