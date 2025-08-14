@@ -1,7 +1,7 @@
 prose:
   rooturl: '_posts'
-  siteurl: 'https://yourusername.github.io/jon-stronach-blog/'
-  relativeLinks: 'https://yourusername.github.io/jon-stronach-blog/links.jsonp'
+  siteurl: 'https://jonstronach.com/'
+  relativeLinks: 'https://jonstronach.com/links.jsonp'
   media: 'assets/images'
   ignore:
     - index.md

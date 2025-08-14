@@ -5,9 +5,9 @@ title_separator          : "-"
 subtitle                 : "Personal Blog & Portfolio"
 name                     : "Jonathan Stronach"
 description              : "Welcome to my personal blog where I share thoughts, projects, and experiences."
-url                      : "https://yourusername.github.io" # Update with your GitHub username
-baseurl                  : "/jon-stronach-blog" # Update with your repository name
-repository               : "yourusername/jon-stronach-blog" # Update with your GitHub username/repo
+url                      : "https://jonstronach.com" # Your custom domain
+baseurl                  : "" # Leave empty for custom domain
+repository               : "pkpio/jon-stronach" # Your GitHub repository
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
